@@ -231,13 +231,20 @@ div.contato img:hover{
 }
 
 /*RESPONSIVIDADE PARA MOBILE*/
-@media(max-width:740px){
+@media(max-width:768px){
 
-    .icone{
+    .icone{ /*colocando para aparecer no mobile*/
         display: block;
         position: fixed;
         bottom:5px;
         left: 10px;
+    }
+
+    header nav ul a:hover { /*tirando o efeito do hover*/
+        color: white;
+        padding: 0;
+        border: none;
+        background: none;
     }
     
     .ativa{
