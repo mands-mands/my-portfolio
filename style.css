@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html, body { /*para evitar scroll horizontal*/
+    overflow-x: hidden;
+}
+
+img, div, section {/*para evitar que as imagens e seções ultrapassem o limite da tela*/
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(5, 5, 5);
     color: white; 
@@ -108,8 +117,6 @@ div.sobre-mim{
     padding: 40px;
     
 }
-
-
 
 section#formacao{
     justify-content: center;
