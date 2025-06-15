@@ -181,18 +181,45 @@ div.projetos-card > a{
 }
 
 section#contato{
+    flex-direction: column; /* organiza os elementos em coluna */
     justify-content: center;
     align-items: center;
 }
 
-div.contato img{
-    margin-right: 30px;
-    transition: 0.2s;
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px; /* largura do formulário */
 }
 
-div.contato img:hover{
-    scale: 1.2;
+input {
+    padding: 10px;
+    border: 2px solid white; 
+    border-radius: 8px; 
+    background-color: transparent; 
+    color: white; /* texto branco */
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px; /* aumentando a altura da textarea */
+}
+
+button {
+    padding: 10px;
+    border: 2px solid white; 
+    border-radius: 8px; 
+    background-color: transparent; 
+    color: white; /* texto branco */
+    font-size: 16px;
     cursor: pointer;
+    transition: 0.3s; /* adiciona uma transição suave ao passar o mouse */
+}
+
+button:hover{
+    background-color: #D13333;
+    scale:1.05;
 }
 
 /*RESPONSIVIDADE PARA TELAS MENORES*/
