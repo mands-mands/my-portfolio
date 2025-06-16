@@ -135,7 +135,7 @@ div.projetos-card > img {
 }
 
 section#projetos{
-    display: block; /*defini essa secao como block para nao dar problema com o grid*/
+    display: block; /*defini essa seção como block para nao dar problema com o grid*/
     padding-top: 200px;
 }
 
